@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+      
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        background: linear-gradient(to bottom, #FFFFFF, #F5F0E8);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      
+      .header {
+        background-color: #4A2C2A;
+        color: #FFFFFF;
+        padding: 20px 40px;
+        text-align: center;
+      }
+      
+      .content {
+        display: flex;
+        flex: 1;
+        padding: 40px;
+      }
+      
+      .text-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .image-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+      
+      .image-container img {
+        max-width: 100%;
+        max-height: 400px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #4A2C2A;
+        margin-bottom: 20px;
+      }
+      
+      h2 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #1E3932;
+        margin-bottom: 16px;
+      }
+      
+      p {
+        font-size: 20px;
+        color: #333333;
+        line-height: 1.5;
+      }
+      
+      .footer {
+        background-color: #4A2C2A;
+        color: #D4A76A;
+        padding: 10px 40px;
+        font-size: 16px;
+        text-align: center;
+      }
+      
+      .data-source {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #F5F0E8;
+        border-left: 4px solid #D4A76A;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="header">
+        <h1 class="text-3xl font-bold text-white">Análise de Mercado de Café</h1>
+      </div>
+      
+      <div class="content">
+        <div class="text-content">
+          <h1>Metodologia</h1>
+          <h2>Fontes de dados e período analisado</h2>
+          <p>A análise foi realizada com base em dados coletados de fontes públicas confiáveis:</p>
+          
+          <div class="data-source">
+            <p class="text-lg"><strong>Fonte principal:</strong> Banco Mundial</p>
+            <p class="text-lg"><strong>Dataset:</strong> CMO-Historical-Data-Monthly.xlsx</p>
+            <p class="text-lg"><strong>Período:</strong> Janeiro 1960 - Julho 2025</p>
+            <p class="text-lg"><strong>Variáveis:</strong> Preços mensais de café Arábica e Robusta ($/kg)</p>
+          </div>
+          
+          <p class="mt-4"><strong>Limitações:</strong> O dataset fornece apenas dados de preço, sem informações sobre quantidade negociada, o que limita a análise completa de oferta e demanda.</p>
+        </div>
+        
+        <div class="image-container">
+          <img src="/home/ubuntu/upload/search_images/41VlhcgmeapK.jpg" alt="Gráfico de análise de mercado" width="500" height="350">
+        </div>
+      </div>
+      
+      <div class="footer">
+        Análise de Mercado de Café | Setembro 2025
+      </div>
+    </div>
+  </body>
+</html>
+
