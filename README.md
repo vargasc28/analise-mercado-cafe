@@ -57,10 +57,6 @@ Este repositório contém uma análise exploratória do mercado de café, com fo
 3. Leia o relatório em Markdown para análise detalhada
 4. Visualize a apresentação abrindo os arquivos HTML em um navegador
 
-## Autor
-
-Análise realizada por Manus AI como parte de uma tarefa de microeconomia.
-
 ## Data
 
 Setembro de 2025
