@@ -50,13 +50,6 @@ Este repositório contém uma análise exploratória do mercado de café, com fo
 2. **Diferenciação de Valor**: O café Arábica mantém preços consistentemente mais elevados
 3. **Mercado Complexo**: Influenciado por fatores climáticos, políticos e econômicos globais
 
-## Como Utilizar
-
-1. Baixe os arquivos do repositório
-2. Abra a planilha Excel para visualizar os dados e estatísticas
-3. Leia o relatório em Markdown para análise detalhada
-4. Visualize a apresentação abrindo os arquivos HTML em um navegador
-
 ## Data
 
 Setembro de 2025
